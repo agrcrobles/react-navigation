@@ -3861,9 +3861,11 @@ react-native-drawer-layout@1.2.0:
   dependencies:
     react-native-dismiss-keyboard "1.0.0"
 
-react-native-tab-view@^0.0.57:
-  version "0.0.57"
-  resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-0.0.57.tgz#715e2ea4100fa50168e134df3947dd76ebd55743"
+"react-native-tab-view@git+https://github.com/agrcrobles/react-native-tab-view.git":
+  version "0.0.59"
+  resolved "git+https://github.com/agrcrobles/react-native-tab-view.git#911cdcaec18a79f70ac5c73ffe7c65f70e4494e6"
+  dependencies:
+    prop-types "^15.5.8"
 
 react-native-vector-icons@^3.0.0:
   version "3.0.0"
